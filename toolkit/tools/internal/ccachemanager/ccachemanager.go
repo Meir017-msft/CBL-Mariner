@@ -158,7 +158,7 @@ type RemoteStoreConfig struct {
 
 // CCacheGroupConfig is where package groups are defined.
 // A package group is a group of packages that can share the same ccache
-// artifacts. This is typical for packages like kernel and kernel-hci, for
+// artifacts. This is typical for packages like kernel and kernel-rt, for
 // example.
 // A package group can have an arbitrary name, and a list of package names
 // associated with it.

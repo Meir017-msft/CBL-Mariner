@@ -61,7 +61,7 @@ SystemConfig:
   - kernel
 
   PackagesInstall:
-  - kernel-hci
+  - kernel-rt
 ```
 
 ## Top-level
