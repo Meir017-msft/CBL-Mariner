@@ -6,7 +6,7 @@
 Summary: Industry-standard container runtime for confidential containers
 Name: moby-%{upstream_name}
 Version: 1.7.2
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: ASL 2.0
 Group: Tools/Container
 URL: https://www.containerd.io
@@ -78,6 +78,9 @@ fi
 %config(noreplace) %{_sysconfdir}/containerd/config.toml
 
 %changelog
+* Fri Feb 02 2024 CBL-Mariner Servicing Account <cblmargh@microsoft.com> - 1.7.2-4
+- Bump release to rebuild with go 1.21.6
+
 * Wed Dec 20 2023 Manuel Huber <mahuber@microsoft.com> - 1.7.2-3
 - Set oom_score_adj of containerd to -999
 
